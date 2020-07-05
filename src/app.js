@@ -79,6 +79,6 @@ app.get('*', (req, res) => {
     });
 })
 
-app.listen(3000, () => {
-    print('server is running on 3000 port no')
+app.listen(port, () => {
+    print('server is running on ' + port + ' port no')
 });
